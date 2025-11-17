@@ -27,7 +27,7 @@ class Person {
     this.name = name;
     this.age = age;
   }
-  getDetails() {
+  getDetails():string {
     return `'Name: ${this.name}, Age: ${this.age}'`
   }
 }
