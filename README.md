@@ -1,7 +1,8 @@
 "# NEXT-Assignment-1" 
 ##BLOG POSTS
 
-###What are some differences between interfaces and types in TypeScript?
+###**What are some differences between interfaces and types in TypeScript?**
+
 TypeScript শেখার সময় অনেকেই interface আর type নিয়ে কনফিউশনে পড়ে যায়। যদিও দু’টোকেই টাইপ Define করতে ব্যবহার করা হয়, তবুও এদের মধ্যে কিছু ছোটখাটো পার্থক্য আছে। কেউ একেবারে ধাপে ধাপে বুঝে ওঠে না।
 
 interface মূলত object এর structure বা গঠন নির্ধারণ করতে ব্যবহৃত হয়। ধরো একটা object এর name হবে string এবং age হবে number। কিন্তু type alias একটু বেশি flexible — এটি শুধু object নয়, primitive, union, tuple — সব ধরনের ডেটা নিয়ে কাজ করতে পারে।
@@ -12,7 +13,7 @@ interface কে একাধিকবার declare করলে typescript ন
 
 
 
-###Explain the difference between any, unknown, and never types in TypeScript.
+###**Explain the difference between any, unknown, and never types in TypeScript.**
 TypeScript শেখার সময় নতুনদের অনেককে any, unknown আর never টাইপ নিয়ে বিভ্রান্তিতে পড়তে দেখা যায়। এদের প্রতিটির কাজ আলাদা এবং ব্যবহার করার নিয়মও আলাদা।
 
 any হলো সবচেয়ে relaxed টাইপ। এতে যেকোনো ধরনের value রাখা যায় এবং TypeScript কোনো type-checking করে না। এর প্রধান সুবিধা হলো দ্রুত কোড লেখা যায়, কিন্তু নিরাপত্তা কমে যায়। ভুল value assign করলেও compiler কিছু বলে না।
